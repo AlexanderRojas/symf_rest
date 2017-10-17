@@ -1,0 +1,44 @@
+AppBundle\Entity\Cascaras:
+    type: entity
+    table: cascaras
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        preg:
+            type: string
+            nullable: false
+            length: 100
+            options:
+                fixed: false
+        resp1:
+            type: string
+            nullable: false
+            length: 100
+            options:
+                fixed: false
+        resp2:
+            type: string
+            nullable: false
+            length: 100
+            options:
+                fixed: false
+        resp3:
+            type: string
+            nullable: false
+            length: 100
+            options:
+                fixed: false
+        resp4:
+            type: string
+            nullable: false
+            length: 100
+            options:
+                fixed: false
+    lifecycleCallbacks: {  }

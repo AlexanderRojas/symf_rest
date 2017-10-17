@@ -1,4 +1,15 @@
+app_cascaras_api:
+    resource: "@AppBundle/Controller/CascarasRESTController.php"
+    type:   rest
+    prefix:   /api
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc       
+
 app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+ 
 
